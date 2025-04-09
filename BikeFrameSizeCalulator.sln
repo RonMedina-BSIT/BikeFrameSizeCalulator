@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeFrameSizeCalulator", "BikeFrameSizeCalulator.csproj", "{AA82BD7B-4370-4150-8C88-AA9E1C68D8C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFSC_BusinessDataLogic", "BFSC_BusinessDataLogic\BFSC_BusinessDataLogic.csproj", "{412605E9-82EF-415F-B81F-598885FC654C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA82BD7B-4370-4150-8C88-AA9E1C68D8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA82BD7B-4370-4150-8C88-AA9E1C68D8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA82BD7B-4370-4150-8C88-AA9E1C68D8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA82BD7B-4370-4150-8C88-AA9E1C68D8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412605E9-82EF-415F-B81F-598885FC654C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412605E9-82EF-415F-B81F-598885FC654C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412605E9-82EF-415F-B81F-598885FC654C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412605E9-82EF-415F-B81F-598885FC654C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBE973F7-CED5-4BC2-906A-4727877F9D01}
+	EndGlobalSection
+EndGlobal
