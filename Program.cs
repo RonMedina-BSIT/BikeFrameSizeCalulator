@@ -1,10 +1,10 @@
 ﻿using System.Drawing;
 using BFSC_BusinessDataLogic;
+using BFSC_Common;
 namespace BikeFrameSizeCalulator
 {
     internal class Program
-    {
-       
+    { 
         static void Main(string[] args)
         {
             
@@ -18,7 +18,7 @@ namespace BikeFrameSizeCalulator
             Console.Write("Please enter your inseam in cm: ");
             int inseam = Convert.ToInt16(Console.ReadLine());
 
-            FrameSizes sizes =BFSC_Process.CalculateFrameSize(inseam);
+            FrameSizes sizes =BFSC_Service.CalculateFrameSize(inseam);
 
             Console.WriteLine("-------------------------");
             Console.WriteLine("Your bike frame size for: " + "\n" + "Trekking: " + sizes.TrekkingFrameSize + "\n" + "Road Bikes: " + sizes.RoadFrameSize + "\n" + "Mountain Bikes: " + sizes.MountainFrameSize);

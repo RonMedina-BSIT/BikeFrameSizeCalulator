@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BFSC_BusinessDataLogic
+namespace BFSC_Common
 {
     public class FrameSizes
     {
